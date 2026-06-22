@@ -1,0 +1,17 @@
+Model: resnet50
+Best Validation Accuracy: 0.9956
+Test Accuracy: 0.9939
+Test Precision: 0.9939
+Test Recall: 0.9939
+Test F1-Score: 0.9939
+
+              precision    recall  f1-score   support
+
+      Glioma     1.0000    0.9867    0.9933       300
+  Meningioma     0.9902    0.9902    0.9902       306
+    No-tumor     0.9951    1.0000    0.9975       405
+   Pituitary     0.9901    0.9967    0.9934       300
+
+    accuracy                         0.9939      1311
+   macro avg     0.9938    0.9934    0.9936      1311
+weighted avg     0.9939    0.9939    0.9939      1311

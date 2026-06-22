@@ -1,0 +1,20 @@
+{
+    "train_total_original": 5712,
+    "train_used": 4570,
+    "validation_used": 1142,
+    "test_used": 1311,
+    "classes": [
+        "Glioma",
+        "Meningioma",
+        "No-tumor",
+        "Pituitary"
+    ],
+    "class_to_idx": {
+        "Glioma": 0,
+        "Meningioma": 1,
+        "No-tumor": 2,
+        "Pituitary": 3
+    },
+    "image_size": 224,
+    "batch_size": 16
+}

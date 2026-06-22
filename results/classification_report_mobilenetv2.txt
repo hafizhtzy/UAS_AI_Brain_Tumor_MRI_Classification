@@ -1,0 +1,17 @@
+Model: mobilenetv2
+Best Validation Accuracy: 0.9956
+Test Accuracy: 0.9916
+Test Precision: 0.9917
+Test Recall: 0.9916
+Test F1-Score: 0.9916
+
+              precision    recall  f1-score   support
+
+      Glioma     1.0000    0.9833    0.9916       300
+  Meningioma     0.9806    0.9902    0.9854       306
+    No-tumor     0.9951    0.9951    0.9951       405
+   Pituitary     0.9901    0.9967    0.9934       300
+
+    accuracy                         0.9916      1311
+   macro avg     0.9914    0.9913    0.9913      1311
+weighted avg     0.9917    0.9916    0.9916      1311

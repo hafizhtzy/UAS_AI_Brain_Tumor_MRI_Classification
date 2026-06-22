@@ -1,0 +1,17 @@
+Model: efficientnetb0
+Best Validation Accuracy: 0.9991
+Test Accuracy: 0.9954
+Test Precision: 0.9954
+Test Recall: 0.9954
+Test F1-Score: 0.9954
+
+              precision    recall  f1-score   support
+
+      Glioma     1.0000    0.9933    0.9967       300
+  Meningioma     0.9903    0.9967    0.9935       306
+    No-tumor     0.9975    0.9951    0.9963       405
+   Pituitary     0.9934    0.9967    0.9950       300
+
+    accuracy                         0.9954      1311
+   macro avg     0.9953    0.9954    0.9954      1311
+weighted avg     0.9954    0.9954    0.9954      1311
